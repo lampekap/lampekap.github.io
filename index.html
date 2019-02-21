@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="spacex.css">
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="fusioncharts/js/fusioncharts.js"></script></head>
+<body>
+	<div id=header>
+		<img src="images/spacex_logo.png" alt="spacex logo">
+	</div>
+	<div  id="grid-container">
+	<div id="item1" class="item">
+		<h1>Journey progress</h1>
+
+<div id="myProgress">
+  <div id="myBar">10%</div>
+</div>
+
+<br>
+<div id=button onclick="move()">
+	<p>Calculate</p>
+</div>
+	</div>
+	<div id="item2" class="item">
+		<h1>Arrival countdown</h1>
+		<p id="demo"></p>
+	</div>
+	<div id="item3" class="item">
+	<div id="chartContainer" class="chartContainer"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	</div>
+	<div id="item4" class="item">
+	<div id="chartContainer2" class="chartContainer"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>	
+	</div>
+	<div id="item5" class="item">
+	<div id="chartContainer3" class="chartContainer"></div>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>		
+	</div>
+	<div id="item6" class="item">
+	<div id="chartContainer4" class="chartContainer" class="fluidchartitem"></div>
+	</div>
+	<div id="item7" class="item">
+	<div id="chartContainer5" class="chartContainer" class="fluidchartitem"></div>
+	</div>
+	</div>
+</body>
+</html>
