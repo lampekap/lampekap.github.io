@@ -17,7 +17,7 @@
 
 // Countdown chart
 
-var countDownDate = new Date("apr 5, 2019 15:37:25").getTime();
+var countDownDate = new Date("apr 5, 2023 15:37:25").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
